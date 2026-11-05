@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hoplix is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://hoplix.com
+Hoplix is an Italian print‑on‑demand and dropshipping platform. Sellers, brands and creators put their designs on over 230 blank products such as t‑shirts, hoodies, mugs, bags and phone cases, sell them via their own store or marketplaces, and Hoplix prints and ships every order worldwide. The company provides a REST API (v1.1, OpenAPI 3.1) for catalog, campaigns and orders, including a test mode and an official remote MCP server for AI assistants.
+
+**Areas:** Company · Print on Demand · Dropshipping · E-Commerce · Merchandise
+
+## Hoplix on APIs.io
+
+Everything profiled for Hoplix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hoplix-com/](https://apis.io/providers/hoplix-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Hoplix Print-on-Demand API](https://apis.io/apis/hoplix-com/hoplix-print-on-demand-api/) — REST API v1.1: list blank products, create campaigns, place orders, test mode available.
+- [Hoplix Print-on-Demand API V1 API](https://apis.io/apis/hoplix-com/hoplix-print-on-demand-api-v1-api/) — REST API of Hoplix, an Italian print-on-demand and dropshipping platform: read the catalog of 230+ blank products, create campaigns with your designs, place…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Campaign](https://apis.io/schemas/hoplix-com/hoplix-com-campaign/)
+- [CampaignInput](https://apis.io/schemas/hoplix-com/hoplix-com-campaign-input/)
+- [CampaignSummary](https://apis.io/schemas/hoplix-com/hoplix-com-campaign-summary/)
+- [OrderInfo](https://apis.io/schemas/hoplix-com/hoplix-com-order-info/)
+- [OrderInput](https://apis.io/schemas/hoplix-com/hoplix-com-order-input/)
+- [Product](https://apis.io/schemas/hoplix-com/hoplix-com-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hoplix Com Context](https://apis.io/jsonld/hoplix-com/hoplix-com-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Hoplix Com Openapi Overlay](https://apis.io/overlays/hoplix-com/hoplix-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hoplix API Rules](https://apis.io/rules/hoplix-com/hoplix-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hoplix Com Domain Security](https://apis.io/security/hoplix-com/hoplix-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hoplix.com)
+- [Documentation](https://hoplix.com/api/v1/documentation)
+- [Terms of service](https://hoplix.com/it/terms-and-conditions)
+- [Privacy policy](https://hoplix.com/it/privacy)
+
+## API Evangelist rating
+
+**Kin Score 38.3** — thin · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 34.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hoplix-com/](https://apis.io/providers/hoplix-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hoplix: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hoplix-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
