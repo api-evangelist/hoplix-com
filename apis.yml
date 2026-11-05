@@ -1,0 +1,27 @@
+aid: hoplix-com
+name: Hoplix
+description: 'Hoplix is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/hoplix-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-05'
+modified: '2026-11-05'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://hoplix.com
+- type: Documentation
+  url: https://hoplix.com/api/v1/documentation
+x-submission-notes: apis.json https://hoplix.com/apis.json
+x-submitted-by: info@hoplix.com (apisio-add-form, 2026-11-04)
