@@ -72,10 +72,9 @@ Hoplix is an Italian print‑on‑demand and dropshipping platform. Sellers, bra
 
 Everything profiled for Hoplix is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hoplix-com/](https://apis.io/providers/hoplix-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (2)
+### APIs (1)
 
-- [Hoplix Print-on-Demand API](https://apis.io/apis/hoplix-com/hoplix-print-on-demand-api/) — REST API v1.1: list blank products, create campaigns, place orders, test mode available.
-- [Hoplix Print-on-Demand API V1 API](https://apis.io/apis/hoplix-com/hoplix-print-on-demand-api-v1-api/) — REST API of Hoplix, an Italian print-on-demand and dropshipping platform: read the catalog of 230+ blank products, create campaigns with your designs, place…
+- [Hoplix Print-on-Demand API](https://apis.io/apis/hoplix-com/hoplix-print-on-demand-api/) — REST API v1.1 of Hoplix, an Italian print-on-demand and dropshipping platform: read the catalog of 230+ blank products, create campaigns with your designs,…
 
 ### Published properties
 
@@ -102,7 +101,7 @@ Linked-data contexts for the provider's vocabulary.
 
 OpenAPI overlays, including conversational phrasing for each operation.
 
-- [Hoplix Com Openapi Overlay](https://apis.io/overlays/hoplix-com/hoplix-com-openapi-overlay/)
+- [Hoplix Openapi Overlay](https://apis.io/overlays/hoplix-com/hoplix-com-openapi-overlay/)
 
 #### Governance rules (1)
 
@@ -114,7 +113,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Hoplix Com Domain Security](https://apis.io/security/hoplix-com/hoplix-com-domain-security/)
+- [Hoplix Domain Security](https://apis.io/security/hoplix-com/hoplix-com-domain-security/)
 
 ## Where to find this API
 
@@ -122,23 +121,24 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://hoplix.com)
 - [Documentation](https://hoplix.com/api/v1/documentation)
+- [Pricing](https://hoplix.com/en/api-integration)
 - [Terms of service](https://hoplix.com/it/terms-and-conditions)
 - [Privacy policy](https://hoplix.com/it/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 38.3** — thin · rubric 0.27.0 · scored 2026-11-05
+**Kin Score 36.9** — thin · rubric 0.27.0 · scored 2026-11-11
 
 | Facet | Score |
 |---|---|
 | Discoverability | 66.7 |
 | Contract quality | 50.7 |
-| Contract governance | 79.1 |
-| Operational transparency | 0.0 |
-| Developer ergonomics | 19.0 |
-| Access clarity | 21.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 31.6 |
 
-**Agent readiness 34.8** — agent-ready
+**Agent readiness 41.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -152,8 +152,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
